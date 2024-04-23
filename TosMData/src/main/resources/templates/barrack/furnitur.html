@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorate="~{layout/default}"> <!-- 이거는 절대 경로다!! -->
+
+	<th:block layout:fragment="customContent">
+		<h1 th:text="${title}"></h1>
+	</th:block>
+</html>
