@@ -1,4 +1,4 @@
-package com.tosm.TosMData.controller.barrack;
+package com.tosm.TosMData.controller.main;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
