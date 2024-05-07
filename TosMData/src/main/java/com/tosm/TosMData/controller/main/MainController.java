@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MainController {
 
-	@GetMapping("/main")
+	@GetMapping(value = {"", "/"})
 	public String main(Model model) {
 		
 		model.addAttribute("title", "메인화면");
 		
-		return "/main";
+		return "main";
 	}
 	
 }
